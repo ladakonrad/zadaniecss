@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header {
+    background-image: url(../img/man-1.jpg);
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.opis {
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+#iam {
+    flex-basis: 100%;
+    font-size: 20px;
+    
+}
+
+#developer {
+    flex-basis: 100%;
+    font-size: 30px;
+}
